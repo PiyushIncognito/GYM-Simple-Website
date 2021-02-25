@@ -1,0 +1,85 @@
+body{
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 15px;
+}
+.mid{
+    display: flex;
+    margin: 16px 336px;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    margin: 0px;
+    list-style-type: none;
+}
+.item{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(0, 0, 0);
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.btn{
+    font-family: 'Akaya Telivigala', cursive;
+    background-color: rgba(0, 0, 0, 0.507);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.521);
+}
+.form{
+    display: flex;
+    flex-flow: column wrap;
+}
+input[type=text] {
+    font-family: 'Akaya Telivigala', cursive;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    padding: 19px 13px 22px 20px;
+    margin: 75px 0px -59px 100px;
+    background: #0707078f;
+    border-radius: 10px;
+  }
+  input[type=text]:hover{
+    background-color: black;
+  }
+  input[type=text]:focus{
+    width: 30%;
+  }
+  input[type=submit]{
+      width: 20%;
+      padding: 8px 30px 8px 30px;
+      margin: 73px 20px -92px 117px;
+      background: #0707078f;
+      border-radius: 10px;
+  }
+  input[type=submit]:hover{
+      background-color: black;
+  }
